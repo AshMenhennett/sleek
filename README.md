@@ -1,6 +1,6 @@
-# learning-object-generator
+# Sleek
 
-> A Vue.js project
+> A Vue.js application to author reusable learning objects
 
 ## Build Setup
 

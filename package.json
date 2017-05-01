@@ -1,7 +1,7 @@
 {
-  "name": "sleek-learning-object-generator",
+  "name": "sleek",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Vue.js application to author reusable learning objects",
   "author": "Ashley Menhennett <ashleymenhennett@gmail.com>",
   "private": true,
   "scripts": {
