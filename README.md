@@ -1,7 +1,5 @@
 ![Sleek](./src/assets/img/logo.png)
 
-# Sleek
-
 > A Vue.js application to author reusable learning objects
 
 ## Build Setup
