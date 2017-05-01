@@ -100,7 +100,7 @@ export default {
   }
   footer.main{
     border-bottom: 8px solid #00bfa5;
-    padding:;
+    padding: 20px;
     font-size: 20px;
   }
   .box {
