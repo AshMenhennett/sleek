@@ -1,9 +1,9 @@
 <template>
   <div>
-  <header class="main center-align">
+  <header class="only-desktop main center-align">
     <img src="./../assets/img/logo.png">
   </header>
-  <section class="box blue">
+  <section class="box blue less-pad-mobile">
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -26,7 +26,7 @@
         <div class="col s12">
           <i class="material-icons"><i class="material-icons right">accessibility</i></i>
           <h3>Our Mission</h3>
-          <p class="lead lg-pad md-mar">We want to support your mission of reaching students and users with <strong>high quality</strong> learning objects to supplement online teaching and information services. Sleek has been designed from bottom up to be the <strong>simplest possible solution</strong> to your problem. Sleek will allow you to generate learning objects on the fly and provide you the self-contained object ready for you to paste into your existing CMS or platform, ready to go! <strong>Simple as that</strong>!</p>
+          <p class="lead lg-pad md-mar">We want to support your <strong>mission</strong> of reaching students and users with <strong>high quality learning objects</strong> to supplement online teaching and information services. Sleek has been designed from the bottom up to be the <strong>simplest possible solution</strong> to your problem. Sleek will allow you to generate learning objects <strong>on the fly</strong> and provide you the self-contained object ready for you to paste into your <strong>existing CMS or platform</strong>, ready to go! <strong>Simple as that</strong>!</p>
         </div>
       </div>
 
@@ -36,17 +36,17 @@
         <div class="col m12 l4">
           <i class="material-icons">mode_edit</i>
           <h3>Reusable Objects</h3>
-          <p class="lead">Putting the "R" in RLO! Each object is designed to be plugged back into the generator to pick up where you left off! Saving time and costs!</p>
+          <p class="lead">Putting the "R" in <strong>RLO</strong>! Each object is designed to be plugged back into the generator to <strong>pick up where you left off</strong>! Saving time and costs!</p>
         </div>
         <div class="col m12 l4">
           <i class="material-icons">publish</i>
           <h3>LibGuides Integration</h3>
-          <p class="lead">Each self-contained learning object authored is 100% compatible with LibGuides, meaning all you do is copy and paste the generated HTML into your LibGuide and away you go!</p>
+          <p class="lead">Each <strong>self-contained</strong> learning object authored is <strong>100% compatible</strong> with LibGuides, meaning all you do is copy and paste the generated HTML into your LibGuide and away you go!</p>
         </div>
         <div class="col m12 l4">
           <i class="material-icons">devices</i>
           <h3>Modern Design</h3>
-          <p class="lead">Create awesome learning experiences for your users! Each learning object is uniquely designed for maximum impact!</p>
+          <p class="lead">Create <strong>awesome learning experiences</strong> for your users! Each learning object is <strong>uniquely designed for maximum impact</strong>!</p>
         </div>
       </div>
     </section>
@@ -103,6 +103,20 @@ export default {
     padding: 20px;
     font-size: 20px;
   }
+  .only-desktop {
+    display: none;
+  }
+  @media screen and (min-width: 1025px) {
+    .only-desktop {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .less-pad-mobile {
+      padding-top: 40px !important;
+    }
+  }
+
   .box {
     padding: 100px 20px 60px 20px;
     color: #fff;
