@@ -159,6 +159,9 @@ export default {
         if (this.questions[i].correctExplanation != '') {
           this.questions[i].hasExplanations = true;
         }
+
+        this.questions[i].question = this.questions[i].question.replace(/"/g, '&quot;');
+        this.questions[i].question = this.questions[i].question.replace(/`/g, '\'');
       }
 
       var HTML = '';
