@@ -9,7 +9,7 @@
           <div class="col s12">
             <div class="center-align">
               <h1>Learning Objects at the speed of light!</h1>
-              <p class="lead">Create meaningful and engaging expereinces for your users today..</p>
+              <p class="lead">Create meaningful and engaging experiences for your users today..</p>
               <a data-scroll href="#about" class="learn-more">Learn More &raquo;</a>
             </div>
           </div>

@@ -2,6 +2,8 @@
 
 > A Vue.js application to author reusable learning objects
 
+Watch the [Sleek Showcase](https://s3-ap-southeast-2.amazonaws.com/ashleymenhennett/Sleek+Showcase.mp4) video.
+
 ## Build Setup
 
 ``` bash
