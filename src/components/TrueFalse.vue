@@ -162,6 +162,8 @@ export default {
 
         this.questions[i].question = this.questions[i].question.replace(/"/g, '&quot;');
         this.questions[i].question = this.questions[i].question.replace(/`/g, '\'');
+        this.questions[i].question = this.questions[i].question.replace(/\\/g, '&bsol;');
+        this.questions[i].question = this.questions[i].question.replace(/\//g, '&sol;');
       }
 
       var HTML = '';
